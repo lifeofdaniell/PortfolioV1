@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Areola Daniel - Portfolio"/>
+    <meta property="og:title" content="Areola Daniel - Portfolio"/>
+    <meta property="og:url" content="https://www.areoladaniel.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Areola Daniel is a self-taught designer and photographer."/>
+    <meta property="og:image" content="https://res.cloudinary.com/areoladaniel-com/image/upload/w_1500/v1589208392/areola_xtnfk1.jpg"/>
+    <meta itemprop="name" content="Areola Daniel - Portfolio"/>
+    <meta itemprop="url" content="https://www.areoladaniel.com"/>
+    <meta itemprop="description" content="Areola Daniel is a self-taught designer and photographer."/>
+    <meta itemprop="thumbnailUrl" content="https://res.cloudinary.com/areoladaniel-com/image/upload/w_1500/v1589208392/areola_xtnfk1.jpg"/>
+    <link rel="image_src" href="https://res.cloudinary.com/areoladaniel-com/image/upload/w_1500/v1589208392/areola_xtnfk1.jpg" />
+    <meta itemprop="image" content="https://res.cloudinary.com/areoladaniel-com/image/upload/w_1500/v1589208392/areola_xtnfk1.jpg"/>
+    <meta name="twitter:title" content="Areola Daniel - Portfolio"/>
+    <meta name="twitter:url" content="https://www.areoladaniel.com"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description" content="Areola Daniel is a self-taught designer and photographer."/>
+    <meta name="description" content="Areola Daniel is a self-taught designer and photographer." />
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Areola Daniel - Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="images/flaticon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="typed.js"></script>
+</head>
+    <body>
+        
+            <div class="wrapper">
+                <nav>
+                    <span id="brand">
+                        <a href="index" class="logo"><img class="mlogo" width="50" style="max-width: 100%;"  src="images/logoblack@2x.png" alt="AD black logo"></a>
+                    </span>
+    
+                    <ul id="menu">
+                        <li><a href="index"><b class="home">home</b></a></li>
+                        <li><a href="about">about</a></li>
+                        <li><a href="contact">contact</a></li>
+                    </ul>
+            
+                    <div id="toggle" onclick="lockScroll();">
+                        <div class="span" id="one"></div>
+                        <div class="span" id="two"></div>
+                        <div class="span" id="three"></div>
+                    </div> 
+                </nav>
+            </div>
+        
+            
+
+            <div id="resize">
+                
+                <span id="brand2">
+                    <a href="index" class="logo"><img class="mlogo2" width="40" style="max-width: 100%;"  src="images/logoblack@2x.png" alt="AD black logo"></a>
+                </span>
+
+                <h2>MENU</h2>
+                <ul id="menu">
+                     <li><a href="index"><b class="projects">Projects</b></a></li>
+                     <li><a href="about"><b class="abouts">About</b></a></li>
+                     <li><a href="contact"><b class="contacts">Contact</b></a></li>
+                     <li><a href="https://www.instagram.com/lifeofdanielll"><b class="IG">Instagram</b></a></li>
+                     <li><a href="https://www.behance.net/lifeofdaniell"><b class="Behance">Behance</b></a></li>
+                     <li><a href="https://medium.com/@areoladanielopeyemi"><b class="Medium">Medium</b></a></li>
+                </ul>
+                <h3 class="menusocial">CONNECT</h3>
+                <h4>© 2020 All Rights Reserved.<br> 
+                    Made with ♥️ by <b>Areola Daniel.</b></h4>
+             </div>
+
+             <script>
+
+                $("#toggle").click(function(){
+                    $(this).toggleClass('on');
+                    $("#resize").toggleClass("active");
+                });
+
+             </script>
+              <script>
+                function lockScroll() {
+                      if ($('body').hasClass('lock-scroll')) {
+                          $('body').removeClass('lock-scroll');
+                      }
+                      else {
+                          $('body').addClass('lock-scroll');
+                      }
+                }
+          </script>
+
+        <!--landing-->
+        <section class="section1">
+            <h1 class="intro">Hi! I'm <b class="name">Areola Daniel</b>
+            </h1>
+            <div id="mob2">
+                <span id="typed2"></span>
+            </div>
+            <div class="description">
+                <p>I'm a designer, front end developer and photographer based in <b class="location">Lagos, Nigeria</b> constantly looking to learn new things everyday!</p>
+            </div>
+        </section>
+        <!---MobileLanding-->
+        <div class="mobile">
+            
+            <h1 class="Hi">
+                Hi there! I'm
+            </h1>
+            <h1 class="AD">
+                Areola Daniel
+            </h1>
+        </div>
+
+        <div id="mob">
+            <span id="typed"></span>
+        </div>
+
+        <div class="mobile2">
+            <div class="card" data-aos="fade-up">
+                <div class="MDescription">
+                    <p>I'm a designer, front end developer and photographer based in
+                        <b class="location">Lagos, Nigeria</b> constantly looking to learn
+                        new things everyday!</p>
+                </div>
+                <section class="msection2">
+                    <img class="arrow" width="15"  src="images/Icon ionic-ios-arrow-down.svg" > This is my canvas!    
+                </section>
+            </div>
+        </div>
+            
+
+        
+        <section class="section2">
+            <p class="btnnext btnn1"><a class="this" href="#idesign">This is my canvas!<br><img  width="20"  src="images/Icon ionic-ios-arrow-down.svg" ></a></p>    
+        </section>
+
+        
+        
+        <!--iDesign-->
+    
+       
+
+        <div id="idesign" data-aos="fade-up" data-aos-delay="800">
+            <p><b>i</b><b class="design">Design</b></p>
+        </div>
+        
+
+
+        <!--01.unilagcasestudy-->
+        <div class="card" data-aos="fade-up" data-aos-delay="500">
+            <div class="workcontainer">
+                <a href="unilagportal"><img class="studentportal" width="2500" style="max-width: 100%;" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589831019/student_portal_o9zeaf.jpg"></a>
+            </div>
+            <div class="workdescription">
+                <div class="one">
+                    <p>01.</p>
+                </div>
+                <div>
+                    <p class="unilag">university of lagos</p>
+                    <p class="sp">student portal.</p>
+                </div>
+            </div>
+            <div class="casestudydescription">
+                <p>Redesigning and improving the university's student portal, including its user experience, strategy and design.</p>
+            </div>
+        </div>
+        
+
+        <!--02.wecare-->
+        <div class="card2" data-aos="fade-up">
+        <div class="wecarecontainer">
+            <a href="wecare"><img class="wecaree" width="2500px" style="max-width: 100%;" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403703/wecare_nxnjvm.jpg"></a>
+        </div>
+        <div class="wecaredescription">
+            <div class="two">
+                <p>02.</p>
+            </div>
+            <div>
+                <p class="wecare">wecare.</p>
+            </div>
+        </div>
+        <div class="websitedescription">
+            <p>Designing and prototyping a website for charity organization; wecare.</p>
+        </div>
+        </div>
+
+        <!--03.branding-->
+        <div class="card3" data-aos="fade-up">
+            <div class="brandingcontainer">
+                <a href="promotional-content"><img class="brandingg" width="2500px" style="max-width: 100%;" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403618/logo_cklis3.jpg"></a>
+            </div>
+            <div class="brandingdescription">
+                <div class="three">
+                    <p>03.</p>
+                </div>
+                <div>
+                    <p class="branding">branding &</p>
+                    <p class="promo">promotional content.</p>
+                </div>
+            </div>
+            <div class="promodescription">
+                <p>Freelance work from previous years creating logos, posters & other branding materials.</p>
+            </div>
+        </div>
+  
+
+        <!--iShoot-->
+        <div class="card4" data-aos="fade-up" data-aos-delay="400">
+        <div class="ishoot">
+            <p><b>i</b><b class="shoot">Shoot</b></p>
+        </div>
+        </div>
+
+        <!--bldtypmtblk-->
+        <div class="card5" data-aos="fade-up">
+        <div class="mtblkcontainer">
+            <a href="bloodtype-matteblack"><img class="mtblk" width="2500px" style="max-width: 100%;" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589831233/mtblk_hffm7v.jpg"></a>
+        </div>
+        <div class="mtblkdescription">
+            <div class="four">
+                <p>04.</p>
+            </div>
+            <div>
+                <p class="bloodtype">blood type:</p>
+                <p class="matteblack">matteblack.</p>
+            </div>
+        </div>
+        <div class="bldtypdescription">
+            <p>Series of images that showcase how boldly the dark skin stands out from any white material, surface or fabric.</p>
+        </div>
+        </div>
+
+        <!--documentaryphotos-->
+        <div class="card6" data-aos="fade-up">
+        <div class="doccontainer">
+            <a href="docphotos"><img class="docphoto" width="2500px" style="max-width: 100%;" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403623/documentaryphotos_saae12.jpg"></a>
+        </div>
+        <div class="docdescription">
+            <div class="five">
+                <p>05.</p>
+            </div>
+            <div>
+                <p class="doc">documentary</p>
+                <p class="photo">photos.</p>
+            </div>
+        </div>
+        <div class="docphotodescription">
+            <p>Excerpts documenting various happenings ranging from corporate events in conference halls to parties at the beach.</p>
+        </div>
+        </div>
+
+        <!--portraits-->
+        <div class="card7" data-aos="fade-up">
+        <div class="portraitcontainer">
+            <a href="portraits"><img class="portraitts" width="2500px" style="max-width: 100%;" src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403645/portraits_tm7ord.jpg"></a>
+        </div>
+        <div class="portraitdescription">
+            <div class="six">
+                <p>06.</p>
+            </div>
+            <div>
+                <p class="portraits">portraits.</p>
+            </div>
+        </div>
+        <div class="pordescription">
+            <p>Various images of portraits, headshots and fashion editorials for clients.</p>
+        </div>
+        </div>
+
+        <!--footer-->
+        <footer>
+           <div class="footer1">
+            <div class="card" data-aos="fade-up">
+            <p class="hire">NEED A DESIGNER OR PHOTOGRAPHER?</p>
+            <h2  class="together"><a href="/contact">Let's Work Together</a></h2>
+            </div>
+           </div>
+           <div class="footer2">
+               <div class="contact">
+                   <h2>Contact Information —</h2>
+                   <p class="contact1">You can reach out to me any time. Shoot me
+                       an email and I'll reply in the shortest time possible.
+                   </p>
+                   <p class="Email">E: <a class="mailto" href="mailto:hello@areoladaniel.com">hello@areoladaniel.com</a></p>
+                   <p class="phone">P: <b class="no">+234-803-093-2641</b></p>
+               </div>
+               <div class="latest">
+                <h2>Latest Projects —</h2>
+                <ul class="latestprojects">
+                <li><a class="proj" href="unilagportal">UNILAG UX CaseStudy </a></li>
+                <li><a class="proj" href="wecare">WeCare</a></li>
+                <li><a class="proj" href="bloodtype-matteblack">BloodType: MatteBlack</a></li>
+                <li><a class="proj" href="index">All Projects</a></li>
+                </ul>
+               </div>
+               <div class="available">
+                <h2>Current Availability —</h2>
+                <p class="available1">I'm currently available to work on any project.
+                    I'll be happy to discuss new opportunities.<br>
+                    Let's get in touch!
+                </p>
+               </div>
+            
+               <div class="social">
+                <h2>Follow me on —</h2>
+                <ul class="social1">
+                <li><a class="sociall" href="https://www.instagram.com/lifeofdanielll">Instagram</a></li>
+                <li><a class="sociall" href="https://www.behance.net/lifeofdaniell">Behance</a></li>
+                <li><a class="sociall" href="https://medium.com/@areoladanielopeyemi">Medium</a></li>
+                <li><a class="sociall" href="https://dribbble.com/lifeofdaniell">Dribbble</a></li>
+                <li><a class="sociall" href="https://linkedin.com/in/areola-daniel-11180115a">LinkedIn</a></li>
+                </ul>
+               </div>
+           </div>
+           <div class="footer3">
+               <img src="images/logoblack.svg" class="ftlogo">
+               <p class="signoff">
+                   © 2020 All Rights Reserved. — 
+                   Designed & Coded with ♥️ by <b>Areola Daniel.</b>
+               </p>
+           </div>
+        </footer>
+
+    
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 150,
+                duration: 900,
+                once: true,
+            });
+        </script>
+
+        <script src="typed.js"></script>
+        <script>
+            $('document').ready(function(){
+                var typed = new Typed('#typed' ,{
+                    strings: ["Designer.", "Developer.", "Photographer.", "Pixel Connoisseur."],
+                    typeSpeed: 120,
+                    backSpeed: 60,
+                    loop: true,
+                    backDelay: 1000,
+                });
+            });
+        </script>
+    <script>
+        $('document').ready(function(){
+            var typed = new Typed('#typed2' ,{
+                strings: ["Designer.", "Developer.", "Photographer.", "Pixel Connoisseur."],
+                typeSpeed: 120,
+                backSpeed: 60,
+                loop: true,
+                backDelay: 1000,
+            });
+        });
+    </script>
+
+    </body>
+</html>
